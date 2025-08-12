@@ -109,10 +109,12 @@ func main() {
 
 	// регистрация посылки
 	client := 1
-	address := "Псков, д. Пушкина, ул. Колотушкина, д. 5"
+	address := "Псков, д. Пушкина, ул. Geirbyf, д. 5"
 	p, err := service.Register(client, address)
 	if err != nil {
 		fmt.Println(err)
+		fmt.Println("new commit")
+		fmt.Println("new second commit")
 		return
 	}
 
